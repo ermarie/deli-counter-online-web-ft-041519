@@ -19,7 +19,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  puts "${name} ${katz_deli.length}"
+  puts "WElcome, ${name}. You are number ${katz_deli.length} in line."
 end
 
 def now_serving(array)
