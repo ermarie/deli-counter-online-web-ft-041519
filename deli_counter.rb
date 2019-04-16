@@ -11,7 +11,7 @@ def line(katz_deli)
       index += 1
       string << ` ${index}. ${name},`
     end
-    string.pop
+    string.chomp(",")
     string << "."
     puts string
   end
