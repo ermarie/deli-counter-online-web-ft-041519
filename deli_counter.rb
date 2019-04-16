@@ -10,6 +10,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
     string << "${index + 1}: ${name}"
     end
+    
+    string << "."
   end
 end
 
