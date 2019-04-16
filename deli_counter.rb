@@ -8,8 +8,7 @@ def line(katz_deli)
     string = "The line is currently:"
 
     katz_deli.each_with_index do |name, index|
-      index += 1
-      string << ` #{index}. #{name},`
+      string << ` #{index + 1}. #{name},`
     end
     string.chomp(",")
     string << "."
