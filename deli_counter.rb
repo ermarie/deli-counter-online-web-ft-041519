@@ -2,8 +2,10 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli == nil
-    "The line is currently empty."
+  if a.epmty == true
+    "The line is currently empty." 
+  else
+
   end
 end
 
