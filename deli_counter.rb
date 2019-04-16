@@ -13,6 +13,10 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(array)
-  puts array[0]
-  array.unshift
+  if array == nil
+    puts "There is nobody waiting to be served!"
+  else
+    puts array[0]
+    array.unshift
+  end
 end
