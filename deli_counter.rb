@@ -11,3 +11,7 @@ def take_a_number(katz_deli, name)
   katz_deli << name
   puts "${name} ${katz_deli.length}"
 end
+
+def now_serving
+
+end
