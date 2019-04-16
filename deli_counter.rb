@@ -6,8 +6,10 @@ def line(katz_deli)
     "The line is currently empty."
   else
     string = "The line is currently: "
-    katz_deli.each_with_index |name, index|
+    
+    katz_deli.each_with_index do |name, index|
     string << "${index + 1}: ${name}"
+    end
   end
 end
 
