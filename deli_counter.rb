@@ -9,7 +9,7 @@ def line(katz_deli)
 
     katz_deli.each_with_index do |name, index|
       index += 1
-      string << ` ${index}. ${name},`
+      string << ` #{index}. #{name},`
     end
     string.chomp(",")
     string << "."
@@ -19,7 +19,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  puts "WElcome, ${name}. You are number ${katz_deli.length} in line."
+  puts "Welcome, ${name}. You are number ${katz_deli.length} in line."
 end
 
 def now_serving(array)
